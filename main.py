@@ -41,6 +41,7 @@ def sercli():
                 HOST = input('Ip ')
                 HOST = str(HOST)
             except:
+                HOST = str(HOST)
             try:
                 PORT = input('port?')
             except:    
